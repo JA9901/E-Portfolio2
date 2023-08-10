@@ -670,7 +670,7 @@ footer {
     position: relative;
 }
 
-.footer__row {
+.footer__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -865,7 +865,17 @@ RESPONSIVENESS
     .header__para {
       font-size: 18px;
     }
-  }
+}
+
+@media (max-width: 480px) {
+    .modal__half {
+      padding: 40px;
+    }
+  
+    .modal__exit {
+      font-size: 24px;
+    }
+}
 
 @media (max-width: 800px) {
     .scroll__icon {
